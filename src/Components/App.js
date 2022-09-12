@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import Navigation from "./Navigation";
 import Home from "./Home"
 import About from "./About"
@@ -11,7 +11,7 @@ import './Response.css'
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Navigation />}>
             <Route index element={<Home />} />
@@ -21,7 +21,7 @@ const App = () => {
             <Route path="*" element={<Navigate to="/" />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
