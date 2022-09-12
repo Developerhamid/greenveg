@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/greenveg/static/css/main.8d2bf4e0.css",
+    "main.js": "/greenveg/static/js/main.2b730adf.js",
+    "static/media/potatoes.jpg": "/greenveg/static/media/potatoes.68755142569e0a8c9188.jpg",
+    "static/media/home-intro.jpg": "/greenveg/static/media/home-intro.f43270ea49167d0b738f.jpg",
+    "static/media/cucumbers.jpg": "/greenveg/static/media/cucumbers.77fcf0d837c4baf10fc4.jpg",
+    "static/media/bush-beans.jpg": "/greenveg/static/media/bush-beans.ac2892e258717ff113ec.jpg",
+    "static/media/peas.jpg": "/greenveg/static/media/peas.1a280e693e88e380bbc0.jpg",
+    "static/media/tomatoes.jpg": "/greenveg/static/media/tomatoes.ffa09209058c815f84e3.jpg",
+    "static/media/about-intro.jpg": "/greenveg/static/media/about-intro.dc29799a2c8cbf3638e0.jpg",
+    "static/media/carrots.jpg": "/greenveg/static/media/carrots.d81bc3ca8a297d574585.jpg",
+    "index.html": "/greenveg/index.html",
+    "main.8d2bf4e0.css.map": "/greenveg/static/css/main.8d2bf4e0.css.map",
+    "main.2b730adf.js.map": "/greenveg/static/js/main.2b730adf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d2bf4e0.css",
+    "static/js/main.2b730adf.js"
+  ]
+}
