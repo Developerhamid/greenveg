@@ -1,0 +1,57 @@
+:root {
+  --theme-clr: rgb(4, 167, 66);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.logo span {
+  font-size: 1.9rem;
+  color: var(--theme-clr);
+  text-transform: capitalize;
+}
+
+.list-ul {
+  display: flex;
+  align-items: center;
+}
+
+.list-ul li {
+  list-style: none;
+}
+
+.list-ul li a {
+  font-size: 1.2rem;
+  margin: 0 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: var(--theme-clr) !important;
+  border-bottom: 2px solid var(--theme-clr);
+}
+
+.close-btn-box {
+  border: 2px solid var(--theme-clr);
+  border-radius: 4px;
+  padding: 2px;
+  display: none;
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+
+.close-lines {
+  height: 4px;
+  width: 30px;
+  background-color: var(--theme-clr);
+  margin: 3px 0;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid var(--theme-clr);
+}
